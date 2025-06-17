@@ -1,0 +1,29 @@
+.favorite {
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 30px;
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #AFB2B6;
+    }
+}
+
+.fade_in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

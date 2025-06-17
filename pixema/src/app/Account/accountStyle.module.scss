@@ -1,0 +1,42 @@
+ .account{
+        max-width: 264px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 51px;
+    
+
+    &__wrapper_item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 20px;
+    }
+
+    &__wrapper_photo{
+        width: 56px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #7B61FF;
+        border-radius: 10px;
+    }
+
+    &__account_name{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    &__username{
+        max-width: 116px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+}

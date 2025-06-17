@@ -1,0 +1,9 @@
+.films {
+    margin-bottom: 64px;
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px 40px;
+    }
+}

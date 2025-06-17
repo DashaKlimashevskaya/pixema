@@ -1,0 +1,59 @@
+.logoSVG {
+    max-width: 158px;
+    margin-bottom: 64px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+.header__SVG {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__none_SVG {
+    width: 404px;
+    height: 362px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter__SVG {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(123, 97, 255, 0.1);
+    transition: all .5s linear;
+
+    &:hover {
+        background-color: rgba(123, 97, 255, 0.2);
+        box-shadow: 0px 0px 100px 24px rgba(123, 97, 255, 0.73);
+    }
+}
+
+
+.svg {
+    transition: all .5s linear;
+}
+
+.filter__svg {
+    transition: all .5s linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
